@@ -1,12 +1,64 @@
-# React + Vite
+# 📱 Social Media React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern **Social Media Web Application** built using **React + Vite**, styled with **Bootstrap**, and powered by **React Router**. This app simulates a front-end social platform with features like user authentication, post feed, profile pages, search, notifications, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ User Login & Registration
+- 🏠 Home Feed with Posts
+- 👤 User Profile Pages
+- 📝 Create New Post
+- 🔍 Search for Users & Hashtags
+- 🔔 Notifications Page
+- ⚙️ Settings for Profile Update
+- 💬 Comments Section
+- ❤️ Like & Follow Features
+- 🔄 Reusable Components (Navbar, PostCard, UserCard, etc.)
+- 📱 Fully Responsive (Mobile-friendly using Bootstrap Grid)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| [React](https://reactjs.org/) | Front-end library for UI |
+| [Vite](https://vitejs.dev/) | Fast dev server and bundler |
+| [Bootstrap](https://getbootstrap.com/) | CSS Framework for styling |
+| [React Router](https://reactrouter.com/) | Routing and navigation |
+| JavaScript (ES6+) | Scripting language |
+
+---
+
+## 📁 Folder Structure
+
+social-media-app/
+├── src/
+│   ├── assets/
+│   │   └── logo.png              # App logo for favicon and navbar
+│   ├── components/
+│   │   ├── CommentSection.jsx    # Comment input and list
+│   │   ├── FollowButton.jsx      # Follow/Unfollow button
+│   │   ├── Navbar.jsx            # Navigation bar
+│   │   ├── PostCard.jsx          # Post display component
+│   │   └── UserCard.jsx          # User info card
+│   ├── pages/
+│   │   ├── CreatePost.jsx        # Post creation page
+│   │   ├── Home.jsx              # Home feed page
+│   │   ├── Login.jsx             # Login page
+│   │   ├── Notifications.jsx     # Notifications page
+│   │   ├── Profile.jsx           # User profile page
+│   │   ├── Register.jsx          # Registration page
+│   │   ├── Search.jsx            # Search page
+│   │   └── Settings.jsx          # Settings page
+│   ├── data/
+│   │   └── dummyData.js          # Placeholder data for users, posts, notifications
+│   ├── App.jsx                   # Main app with routing
+│   ├── main.jsx                  # Entry point with ReactDOM
+│   └── index.css                 # Global styles
+├── index.html                    # HTML template with Bootstrap CDN
+├── package.json                  # Project dependencies and scripts
+├── vite.config.js                # Vite configuration
+└── README.md                     # This file
