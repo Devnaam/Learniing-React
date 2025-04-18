@@ -1,0 +1,50 @@
+[
+    {
+      "id": "1",
+      "brand": "Roadster",
+      "name": "Men Blue Slim Fit Jeans",
+      "category": "Men",
+      "price": 1299,
+      "originalPrice": 2499,
+      "rating": 4,
+      "image": "https://via.placeholder.com/200?text=Jeans",
+      "description": "Comfortable slim fit jeans for men, perfect for casual outings.",
+      "createdAt": "2025-04-01"
+    },
+    {
+      "id": "2",
+      "brand": "Anouk",
+      "name": "Women Pink Kurta Set",
+      "category": "Women",
+      "price": 1999,
+      "originalPrice": 3999,
+      "rating": 5,
+      "image": "https://via.placeholder.com/200?text=Kurta",
+      "description": "Elegant pink kurta set with intricate embroidery for women.",
+      "createdAt": "2025-04-02"
+    },
+    {
+      "id": "3",
+      "brand": "H&M",
+      "name": "Kids Graphic T-Shirt",
+      "category": "Kids",
+      "price": 699,
+      "originalPrice": 999,
+      "rating": 3,
+      "image": "https://via.placeholder.com/200?text=T-Shirt",
+      "description": "Cool graphic t-shirt for kids with vibrant prints.",
+      "createdAt": "2025-04-03"
+    },
+    {
+      "id": "4",
+      "brand": "Max",
+      "name": "Women Black Sneakers",
+      "category": "Women",
+      "price": 1499,
+      "originalPrice": 2499,
+      "rating": 4,
+      "image": "https://via.placeholder.com/200?text=Sneakers",
+      "description": "Stylish black sneakers for women, ideal for daily wear.",
+      "createdAt": "2025-04-04"
+    }
+  ]

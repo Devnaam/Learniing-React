@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1f3f6;
+  margin: 0;
+}
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.hero-banner {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+}
+.category-card img {
+  height: 150px;
+  object-fit: cover;
+}
+.btn-danger {
+  background-color: #ff3f6c;
+  border-color: #ff3f6c;
+}
+.btn-danger:hover {
+  background-color: #e0355e;
+  border-color: #e0355e;
+}
+@media (max-width: 768px) {
+  .hero-banner {
+    height: 200px;
+  }
+  .product-card img {
+    height: 150px;
+  }
+  .category-card img {
+    height: 100px;
+  }
+}
+
