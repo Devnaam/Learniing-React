@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "platform": "Google Pay",
+    "code": "GPA123",
+    "description": "10% off on first transaction",
+    "expiry": "2025-06-01",
+    "image": null,
+    "userId": "user1",
+    "platformLogo": "/logos/google-pay.png"
+  },
+  {
+    "id": "2",
+    "platform": "Paytm",
+    "code": "PTM456",
+    "description": "$5 cashback on $50",
+    "expiry": "2025-05-10",
+    "image": null,
+    "userId": "user2",
+    "platformLogo": "/logos/paytm.png"
+  },
+  {
+    "id": "3",
+    "platform": "Amazon",
+    "code": "AMZ789",
+    "description": "15% off on electronics",
+    "expiry": "2025-07-01",
+    "image": null,
+    "userId": "user1",
+    "platformLogo": "/logos/amazon.png"
+  }
+]
