@@ -1,0 +1,46 @@
+.calculator {
+  width: 90vw;
+  max-width: 800px;
+}
+
+/* Landscape layout for large screens */
+@media (min-width: 768px) {
+  .calculator {
+    width: 60vw;
+    max-width: 900px;
+  }
+  .grid {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+  .display {
+    font-size: 2.5rem;
+  }
+  button {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+}
+
+/* Portrait layout for mobile screens */
+@media (max-width: 767px) {
+  .calculator {
+    width: 90vw;
+    max-width: 400px;
+  }
+  .grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .display {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  button {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Custom color for brown buttons */
+.bg-brown-500 {
+  background-color: #8B4513;
+}

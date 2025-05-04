@@ -1,0 +1,19 @@
+.calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 20px;
+  }
+  
+  .display {
+    height: 60px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background: #e6e6e6;
+  }
+  
+  button {
+    min-width: 45px;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
+  
